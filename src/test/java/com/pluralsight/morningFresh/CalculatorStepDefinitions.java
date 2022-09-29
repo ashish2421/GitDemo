@@ -21,6 +21,11 @@ public class CalculatorStepDefinitions {
 	public void i_add_and(Integer a, Integer b) {
 	    result = calculator.add(a,b);
 	}
+	@When("I add {int} and {int}")
+	public void i_add_anda(Integer a, Integer b) {
+	    System.out.println("Great");
+	}
+	
 
 	@Then("I should get {int}")
 	public void i_should_get(Integer expectedResult) {
