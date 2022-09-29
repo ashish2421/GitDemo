@@ -25,6 +25,10 @@ public class CalculatorStepDefinitions {
 	public void i_add_anda(Integer a, Integer b) {
 	    System.out.println("Great");
 	}
+	@When("I add {int} and {int}")
+	public void i_add_andand(Integer a, Integer b) {
+	    System.out.println("American");
+	}
 	
 
 	@Then("I should get {int}")
